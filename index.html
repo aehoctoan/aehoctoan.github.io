@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bài giảng Online</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0; padding: 0;
+      background: #f4f6f9;
+    }
+    header {
+      background: #2c3e50;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+    header h1 {
+      margin: 0;
+    }
+    nav {
+      background: #34495e;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .container {
+      max-width: 1000px;
+      margin: 20px auto;
+      padding: 0 15px;
+    }
+    .course-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .course {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      padding: 20px;
+      text-align: center;
+    }
+    .course h3 {
+      margin-top: 0;
+    }
+    .btn {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 10px 15px;
+      background: #3498db;
+      color: white;
+      border-radius: 6px;
+      text-decoration: none;
+      transition: background 0.3s;
+    }
+    .btn:hover {
+      background: #2980b9;
+    }
+    footer {
+      background: #2c3e50;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Khoá học & Bài giảng Online</h1>
+    <p>Học tập dễ dàng, mua ngay chỉ với 1 click</p>
+  </header>
+
+  <nav>
+    <a href="#home">Trang chủ</a>
+    <a href="#courses">Khoá học</a>
+    <a href="#contact">Liên hệ</a>
+  </nav>
+
+  <div class="container" id="courses">
+    <h2>Danh mục bài giảng</h2>
+    <div class="course-list">
+      <div class="course">
+        <h3>Bài giảng Toán 9</h3>
+        <p>Ôn tập toàn bộ kiến thức trọng tâm lớp 9.</p>
+        <a class="btn" href="https://www.paypal.com/">Mua ngay - 100k</a>
+      </div>
+      <div class="course">
+        <h3>Bài giảng Vật Lý 12</h3>
+        <p>Lý thuyết + bài tập có đáp án chi tiết.</p>
+        <a class="btn" href="https://www.paypal.com/">Mua ngay - 150k</a>
+      </div>
+      <div class="course">
+        <h3>Bài giảng Tiếng Anh</h3>
+        <p>Luyện ngữ pháp, từ vựng và kỹ năng giao tiếp.</p>
+        <a class="btn" href="https://www.paypal.com/">Mua ngay - 120k</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="container" id="contact">
+    <h2>Liên hệ</h2>
+    <p>Email: <a href="mailto:banhang@example.com">banhang@example.com</a></p>
+    <p>Zalo: 0123 456 789</p>
+  </div>
+
+  <footer>
+    <p>© 2025 Bài giảng Online. All rights reserved.</p>
+  </footer>
+</body>
+</html>
